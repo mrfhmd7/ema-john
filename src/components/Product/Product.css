@@ -1,0 +1,19 @@
+.product{
+     height: 510px;
+     width: 300px;
+     border-radius: 8px;
+     border: 2px solid #95A0A7;
+     padding: 8px;
+}
+
+.product img{
+     height: 285px;
+     width: 300px;
+     border-radius: 8px;
+     align-items: center;
+}
+
+.product h6{
+     font-family: Lato;
+     font-size: 19px;
+}
