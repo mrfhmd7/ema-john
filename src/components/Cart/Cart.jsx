@@ -11,10 +11,12 @@ const Cart = (props) => {
 
      for (const product of cart) {
 
+          // option 1
           // if (product.quantity === 0) {
           //      product.quantity = 1
           // }
 
+          // option 2
           // product.quantity = product.quantity || 1;
 
           totalPrice = totalPrice + product.price * product.quantity;
