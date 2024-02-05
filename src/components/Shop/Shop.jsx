@@ -63,7 +63,7 @@ const Shop = () => {
                //step 5: set the cart
                setCart(savedCart)
           }
-     } ,[products])
+     }, [products])
 
      return (
           <div className='shop-container'>
