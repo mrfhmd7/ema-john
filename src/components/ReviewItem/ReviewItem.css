@@ -1,12 +1,48 @@
 .review-item {
-  width: 570px;
-  border-radius: 8px;
-  border: 2px solid #95a0a7;
-  margin-bottom: 25px;
+     width: 600px;
+     border-radius: 8px;
+     border: 2px solid #95a0a7;
+     margin-bottom: 25px;
+     padding: 8px;
+     display: flex;
+     align-items: center;
 }
 
-.review-item img{
+.review-item img {
      width: 90px;
      height: 90px;
-     border-radius: 8px;
+     border-radius: 6px;
+}
+
+.review-info {
+     font-family: lato;
+     flex-grow: 1;
+}
+
+.review-info p {
+     margin: 0 15px;
+     font-size: 17px;
+}
+
+.review-info h6 {
+     font-size: 18px;
+     margin: 0 15px;
+}
+
+.orange-text {
+     color: #f90;
+}
+
+.btn-delete {
+     margin-right: 10px;
+     height: 55px;
+     width: 55px;
+     border-radius: 50%;
+     background-color: rgba(235, 87, 87, 0.3);
+     padding-left: 9px;
+}
+
+.btn-delete svg {
+     height: 37px;
+     width: 37px;
 }
