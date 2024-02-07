@@ -19,4 +19,13 @@
      align-items: center;
      width: 95%;
      font-size: 17px;
+     margin-top: 10px;
+}
+
+.btn-review-proceed svg{
+     height: 26px;
+}
+
+.btn-link{
+     text-decoration: none;
 }
