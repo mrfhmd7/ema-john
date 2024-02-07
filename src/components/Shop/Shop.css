@@ -1,11 +1,22 @@
-.shop-container{
+.shop-container {
      display: grid;
      grid-template-columns: 4fr 1fr;
 }
 
-.product-container{
+.product-container {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      grid-gap: 45px;
      margin: 60px 80px 50px 90px;
+}
+
+.btn-review-proceed {
+     border-radius: 4px;
+     background: #F90;
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 95%;
+     font-size: 17px;
 }
